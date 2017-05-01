@@ -1,0 +1,6 @@
+web:
+  build: .
+  ports:
+    - "8090:8888"
+  environment:
+    PORT: 8090 # this is optional, allows express to use process.env.PORT instead of a raw 8090
